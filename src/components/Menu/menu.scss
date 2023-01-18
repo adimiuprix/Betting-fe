@@ -1,0 +1,66 @@
+.menu {
+  width: 15%;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+  &__container {
+    padding: 50px 20px;
+    @media (max-width: 1280px) {
+      padding: 50px 10px;
+    }
+    @media (max-width: 1024px) {
+      padding: 20px 5px;
+    }
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  &__line {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 40px;
+    height: 4px;
+    background-color: #ffff00;
+    @media (max-width: 1024px) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  &__ul {
+    @media (max-width: 1024px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__link {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    @media (max-width: 1024px) {
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    &_img {
+      max-width: 30px;
+      margin-right: 10px;
+    }
+    &_a {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      @media (max-width: 1280px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.menu:hover {
+  @media (max-width: 1024px) {
+    left: 0px;
+  } 
+}

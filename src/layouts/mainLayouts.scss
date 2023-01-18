@@ -1,0 +1,12 @@
+.mainLayouts {
+    &__content {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #262f59;
+        @media (max-width: 1024px) {
+            flex-direction: column;
+            padding-top: 104px;
+        }
+    }
+}
